@@ -1,12 +1,12 @@
 # Linux Server Configuration
 
-Public IP: 34.205.174.39
+Public IP: 54.202.30.57
 
 SSH Port: 2200
 
-URL (to hosted app): http://34.205.174.39/
+URL (to hosted app): http://54.202.30.57/
 
-Softrware installed: finger, python2, postgresql, virtualenv, nginx, supervisor
+Softrware installed: postgresql, virtualenv, nginx, supervisor
 In virtualenv: flask and flask libraries, gunicorn
 
 Configuration changes:
@@ -21,6 +21,3 @@ Configuration changes:
 3rd party resources: I've used some good ideas from [this article](http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/)
 
 The app is not configured yet to run on https, so OAUTH2 is problematic.
-
-Grader has sudo privileges to run cat and ls commands without password.
-
